@@ -4,4 +4,3 @@ let number = prompt("Pick a number!")
   } else {
     aler("Oh, that's a bad number!");
   }
-  }
