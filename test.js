@@ -1,5 +1,4 @@
-let accessAllowed;
-let age = prompt('How old are you?', '');
+let officialName = prompt('What is the official name of JavaScript?', '');
 
 if (age > 18) {
   accessAllowed = true;
@@ -8,3 +7,5 @@ if (age > 18) {
 }
 
 alert(accessAllowed);
+(officialName == 'ECMAScript') ?
+  alert('Right!') : alert('You don’t know? ECMAScript!');
