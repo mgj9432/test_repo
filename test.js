@@ -1,1 +1,1 @@
-console.log( 'Jim' > 'Joe');
+console.log( 4 > 2 );
