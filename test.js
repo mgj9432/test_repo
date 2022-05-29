@@ -1,3 +1,3 @@
-let a = 5 > 4;
+let b = 5 > 4;
 
-console.log(a);
+console.log(b);
