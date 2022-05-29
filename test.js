@@ -1,3 +1,1 @@
-let b = 5 > 4;
-
-console.log(b);
+console.log( 'Jim' > 'Joe');
