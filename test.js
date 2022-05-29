@@ -1,7 +1,7 @@
-let officialName = prompt('What is the official name of JavaScript?', '');
+let login = prompt('Who dis?', '')
 
-if (officialName == 'ECMAScript') {
-  alert('Right!');
-} else {
-  alert('You don’t know? ECMAScript!');
-}
+let message = (login == 'Employee') ? 'Hello' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+alert( message );
