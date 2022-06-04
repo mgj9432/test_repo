@@ -1,7 +1,5 @@
-let login = prompt('Who dis?', '')
+let firstName = "";
+let lastName = "";
+let nickName = "";
 
-let message = (login == 'Employee') ? 'Hello' :
-  (login == 'Director') ? 'Greetings' :
-  (login == '') ? 'No login' :
-  '';
-alert( message );
+console.log( firstName || lastName || nickName || "Anonymous");
