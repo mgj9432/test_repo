@@ -1,5 +1,7 @@
-let firstName = "";
-let lastName = "";
-let nickName = "";
+let i = 0;
 
-console.log( firstName || lastName || nickName || "Anonymous");
+for (let i = 0; i < 3; i++) {
+  alert(i);
+}
+
+alert(i);
